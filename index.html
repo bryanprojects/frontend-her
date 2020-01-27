@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Bryan Jansen</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Bryan Jansen</a></li>
+                <li><a href="#about">Over mij</a></li>
+                <li><a href="#footer">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Een navigatie met daarna een main met de belangrijkste informatie over mij -->
+    <main>
+        <h1>Hoi, ik ben Bryan. Creative Developer</h1>
+        <p id="about">Ik studeer momenteel Communication and Multimedia Design aan de Hogeschool in Amsterdam. Als Creative Designer en Developer ben ik veel bezig met vormgeving en Front-end. Ik ontwikkel digitale interactieve producten met het oog op de eindgebruiker.</p>
+
+        <article>
+            <h2>Project Nextime</h2>
+            <a href="nextime.html">
+                <img src="img/nextimetest3.png" alt="Een foto van de website">
+            </a>
+            <p>Een frisse website voor een uniek slaapproject</p>
+        </article>
+        <article>
+            <h2>Visual Interface Design</h2>
+            <a href="vid.html">
+                <img src="img/vidtest.png" alt="Een foto van een project">
+            </a>
+            <p>Een opdracht voor het vak visual interface design</p>
+        </article>
+        <article>
+            <h2>Human Computer Interaction</h2>
+            <a href="hci.html">
+                <img src="img/hcitest.png" alt="Een foto van een project">
+            </a>
+            <p>Een kerstbomen applicatie om zelf kerstbomen te kunnen decoreren en bestellen.</p>
+        </article>
+    </main>
+    <footer id="footer">
+       <!-- Een footer met contact invoervelden om contact te zoeken -->
+        <p>Samenwerken? Kom in contact!</p>
+        <form>
+            <label>
+                <span>Voornaam:</span>
+                <input type="text" name="voornaam" placeholder="John">
+            </label>
+            <label>
+                <span>
+                    Achternaam:
+                </span>
+                <input type="text" name="achternaam" placeholder="Doe">
+            </label>
+            <label>
+                <span> Email:</span>
+                <input type="email" name="mailadres" placeholder="naam@hotmail.com">
+            </label>
+            <label>
+                <span>Soort project:</span>
+                <select>
+                    <option>Html</option>
+                    <option>Css</option>
+                    <option>Javascript</option>
+                </select>
+            </label>
+            <label>
+                <input type="button" id="button" value="Verzenden">
+            </label>
+        </form>
+    </footer>
+
+</body>
+
+</html>

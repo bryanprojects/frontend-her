@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <title>Frontend-development</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Bryan Jansen</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <article>
+        <!-- Hier geef ik een uitleg over de eindopdracht die ik gemaakt heb -->
+        <h1>HCI - Eindopdracht</h1>
+        <p id="about">
+            De Hudson’s Bay warenhuizen zijn alweer een paar jaar open in Nederland. Als bedrijf uit Noord-Amerika (de bakermat van het kerstfeest) wilde Hudson’s Bay vanaf 2019 een dominantere rol gaan innemen rondom kerst. Als onderdeel van dat plan wilde Hudson’s Bay een prototype waar consumenten compleet gedecoreerde kerstbomen konden samenstellen.
+
+            Aan mij was dus de taak om dit te ontwerpen. Ik kreeg een documenten met randvoorwaarden en opties en moest aan de hand daarvan mijn ontwerp realiseren.
+            Hieronder heb ik een prototype gemaakt.
+    </article>
+    <!-- divjes waar de knoppen instaan en een class meegegeven om te stylen -->
+    <div id="decoreren">
+        <h2 id="beschrijving">Stel een kerstboom samen</h2>
+        <p id="werking">
+            <!-- Dit zijn de knoppen die de gebruiker kan gebruiken om de kerstboom te versieren-->
+            <div id="ballen">
+                <input type="button" class="button" value="Blauw ballen">
+                <input type="button" class="button" value="Rode ballen">
+                <input type="button" class="button" value="Gele ballen">
+                <input type="button" class="button" value="X">
+            </div>
+            <!-- Dit is de kerstboom die zichtbaar is op het scherm-->
+            <img src="img/kerstboom.png" class="kerstboom" alt="kerstboom die versierd wordt">
+
+            <div id="ballen2">
+                <!-- Divje voor de decoratie stukken die nog niet zichtbaar worden, maar door de js zichtbaar gaan worden. -->
+                <img src="img/rodeballen.png" class="ballen" alt="ballen die ontzichbaar zijn">
+            </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
